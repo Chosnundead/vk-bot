@@ -125,7 +125,7 @@ tempOfMassages = [];
 
 try:
     #file = open("bot_data.txt");
-    file = codecs.open( "bot_data.txt", "r", "utf_8_sig" )
+    file = codecs.open( "bot_data.txt", "r", "utf_8_sig" );
     bot_data = file.read();
     messages = json.loads(bot_data);
     print("Внедрение базы ответов получилось!");
